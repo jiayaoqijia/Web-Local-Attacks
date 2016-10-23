@@ -13,7 +13,11 @@ Shuo Chen, Prateek Saxena and Zhenkai Liang.
 Videos
 --------------------------------------------------------------------------------
 
-Videos for our attacks are available at https://youtu.be/fIHaiQ4btok
+Videos for our attacks are available at https://youtu.be/fIHaiQ4btok.
+Demo: Dropbox. https://youtu.be/P-oX0wEasz4.
+Demo: FILE Scheme. https://youtu.be/IPWJzzpvJdA.
+Demo: Google Play. https://youtu.be/nKyvCo5cn6c.
+Demo: VNC. https://youtu.be/dYSTxmNVgxI.
 
 --------------------------------------------------------------------------------
 VM for Chrome 33
