@@ -6,7 +6,7 @@
 Authors
 --------------------------------------------------------------------------------
 
-The Web/Local attacks are designed by [Yaoqi Jia], Zheng Leong Chua, Hong Hu, 
+The Web/Local attacks are designed by [Yaoqi Jia], Zheng Leong Chua, [Hong Hu], 
 Shuo Chen, Prateek Saxena and Zhenkai Liang.
 
 --------------------------------------------------------------------------------
@@ -42,10 +42,8 @@ References
 \[jiaweb] [
 The ``Web/Local'' Boundary Is Fuzzy: A Security Study of Chrome’s Process-based Sandboxing
 ] (http://www.comp.nus.edu.sg/~jiayaoqi/publications/chrome_ccs.pdf)
-
   Yaoqi Jia, Zheng Leong Chua, Hong Hu, Shuo Chen, Prateek Saxena and Zhenkai Liang. 
-  
   In the 23rd ACM Conference on Computer and Communications Security ( CCS 2016 )
 
 [Yaoqi Jia]: http://www.comp.nus.edu.sg/~jiayaoqi/
-
+[Hong Hu]: http://www.comp.nus.edu.sg/~huhong/
